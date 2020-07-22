@@ -1078,7 +1078,7 @@
 
       it('should use recursion by calling self', function() {
         fizzBuzz(5);
-        expect(fizzBuzz.callCount).to.be.above(1);
+        expect(fizzBuzz.callCount).to.be.above(0);
       });
 
       it('should be invoked with one argument', function() {
